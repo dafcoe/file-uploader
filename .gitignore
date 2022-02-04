@@ -1,0 +1,9 @@
+.DS_Store
+node_modules
+/dist
+/server/uploads
+/.parcel-cache
+
+# Editor directories and files
+.idea
+.vscode

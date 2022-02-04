@@ -1,0 +1,39 @@
+{
+  "name": "@dafcoe/file-uploader",
+  "version": "0.1",
+  "description": "File Uploader Using Web Components and Typescript",
+  "keywords": [
+    "web components",
+    "file uploader",
+    "typescript"
+  ],
+  "homepage": "https://github.com/dafcoe/file-uploader",
+  "bugs": {
+    "url": "https://github.com/dafcoe/file-uploader/issues",
+    "email": "dafcoe+fu@gmail.com"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Daf Coe",
+    "email": "dafcoe@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dafcoe/file-uploader"
+  },
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "start-server": "cd server && php -S localhost:9000",
+    "clean": "rm -rf ./server/uploads/*",
+    "build": "parcel build"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.1",
+    "parcel": "^2.0.1",
+    "typescript": "^4.5.4"
+  },
+  "dependencies": {
+    "nanoid": "^3.2.0"
+  }
+}
